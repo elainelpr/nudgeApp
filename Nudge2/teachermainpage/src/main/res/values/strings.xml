@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Teacher</string>
+    <string name="homepage">HomePage</string>
+    <string name="add_more_classes">Add more classes</string>
+    <string name="view_add_classes">View / Add classes</string>
+    <string name="homepage1">HomePage</string>
+    <string name="ece650">ECE650</string>
+    <string name="system_programming_engineering"><![CDATA[SYSTEM PROGRAMMING & ENGINEERING]]></string>
+    <string name="instructor_rabih_younes">Instructor: Rabih Younes</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+</resources>

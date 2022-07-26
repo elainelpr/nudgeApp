@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "409889864806",
+    "project_id": "nudge-app-d760b",
+    "storage_bucket": "nudge-app-d760b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:409889864806:android:389b98e44485c3141e81a7",
+        "android_client_info": {
+          "package_name": "com.example.nudge2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "409889864806-j0uuffu4plh108a326s6hv7lm6he9ttu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCpixjPXW1iicMULMxfoJ8ritBkpEPVd_g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "409889864806-j0uuffu4plh108a326s6hv7lm6he9ttu.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "409889864806-0a3bcoio4ls3jboc8vuojnpq29p52e7e.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "duke.NudgeApp"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FCBB59"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <com.google.android.material.textfield.TextInputEditText
+
+        android:id="@+id/question"
+        android:layout_width="348dp"
+        android:layout_height="150dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="30dp"
+        android:background="@drawable/rectangle"
+        android:fontFamily="@font/roboto_medium"
+        android:hint="  Please fill your question here"
+        android:textAlignment="viewStart"
+        android:textColor="#000000"
+        android:textSize="18sp" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"/>
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/answerA"
+            android:layout_width="330dp"
+            android:layout_height="56dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="19dp"
+            android:background="@drawable/rectangle"
+            android:fontFamily="@font/roboto_medium"
+            android:hint=" A:The first answer"
+            android:textAlignment="viewStart"
+            android:textColor="#000000"
+            android:textSize="18sp" />
+
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"/>
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/answerB"
+            android:layout_width="330dp"
+            android:layout_height="56dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="19dp"
+            android:background="@drawable/rectangle"
+            android:fontFamily="@font/roboto_medium"
+            android:hint=" B:Thes econd answer"
+            android:textAlignment="viewStart"
+            android:textColor="#000000"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"/>
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/answerC"
+            android:layout_width="330dp"
+            android:layout_height="56dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="19dp"
+            android:background="@drawable/rectangle"
+            android:fontFamily="@font/roboto_medium"
+            android:hint=" C:The third answer"
+            android:textAlignment="viewStart"
+            android:textColor="#000000"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"/>
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/answerD"
+            android:layout_width="330dp"
+            android:layout_height="56dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/rectangle"
+            android:fontFamily="@font/roboto_medium"
+            android:hint=" D:The fourth answer"
+            android:textAlignment="viewStart"
+            android:textColor="#000000"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="83dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/chooseDate"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:layout_marginStart="100dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/rectangle"
+            android:fontFamily="@font/roboto_medium"
+            android:text="Choose Date"
+            android:textColor="#000000" />
+
+
+        <Button
+            android:id="@+id/chooseTime"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="20dp"
+            android:layout_marginBottom="8dp"
+            android:background="@drawable/rectangle"
+            android:text="Choose Time" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/date"
+        android:layout_width="318dp"
+        android:layout_height="58dp"
+        android:layout_marginStart="42dp"
+        android:layout_marginEnd="42dp"
+        android:layout_marginBottom="96dp"
+        android:background="#548CF9"
+        android:fontFamily="@font/poppins_medium"
+        android:text="Release"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp" />
+
+    <CheckBox
+        android:id="@+id/checkBox6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CheckBox" />
+
+
+</LinearLayout>

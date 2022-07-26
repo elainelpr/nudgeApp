@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="register/src/main/res/drawable/frame.xml" value="0.1" />
+        <entry key="register/src/main/res/layout/activity_main.xml" value="0.33746948242187497" />
+        <entry key="register/src/main/res/layout/activity_web_view.xml" value="0.1358695652173913" />
+        <entry key="register/src/main/res/layout/activity_webview.xml" value="0.15520833333333334" />
+        <entry key="teacheraddques/src/main/res/drawable/rectangle.xml" value="0.1" />
+        <entry key="teacheraddques/src/main/res/layout/activity_choose_date.xml" value="0.3332089146823748" />
+        <entry key="teacheraddques/src/main/res/layout/activity_main.xml" value="0.27019498607242337" />
+        <entry key="teacheraddquestion/src/main/res/layout/activity_main.xml" value="0.3098958333333333" />
+        <entry key="teacheraddquestion/src/main/res/layout/content_main.xml" value="0.3098958333333333" />
+        <entry key="teacheraddquestion/src/main/res/layout/fragment_first.xml" value="0.3098958333333333" />
+        <entry key="teacheraddquestion/src/main/res/layout/fragment_second.xml" value="0.3098958333333333" />
+        <entry key="teachermainpage/src/main/res/drawable/button_rec.xml" value="0.1" />
+        <entry key="teachermainpage/src/main/res/drawable/ic_feedback.xml" value="0.1" />
+        <entry key="teachermainpage/src/main/res/drawable/ic_home.xml" value="0.1" />
+        <entry key="teachermainpage/src/main/res/drawable/rectangle.xml" value="0.1" />
+        <entry key="teachermainpage/src/main/res/drawable/rectangle_blue.xml" value="0.18629608154296873" />
+        <entry key="teachermainpage/src/main/res/drawable/rectangle_orange.xml" value="0.1" />
+        <entry key="teachermainpage/src/main/res/layout/activity_add_more_classes.xml" value="0.37972869873046877" />
+        <entry key="teachermainpage/src/main/res/layout/activity_feedback.xml" value="0.15070921985815602" />
+        <entry key="teachermainpage/src/main/res/layout/activity_feedback_page.xml" value="0.19384057971014493" />
+        <entry key="teachermainpage/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="teachermainpage/src/main/res/layout/fragment_feedback.xml" value="0.35746275989721843" />
+        <entry key="teachermainpage/src/main/res/layout/fragment_home.xml" value="0.28704833984375" />
+        <entry key="teachermainpage/src/main/res/layout/home_fragment.xml" value="0.15070921985815602" />
+        <entry key="teachermainpage/src/main/res/layout/nav_header.xml" value="0.25" />
+        <entry key="teachermainpage/src/main/res/menu/drawer_menu.xml" value="0.3098958333333333" />
+        <entry key="teachermainpage/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1" />
+        <entry key="teachermainpage/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.1" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FCBB59"
+    android:id="@id/feedback">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="120dp"
+        android:layout_marginEnd="10dp"
+        android:fontFamily="@font/inria_serif_bold_italic"
+        android:text="Please Enter your Question here"
+        android:textColor="#000000"
+        android:textSize="22sp" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/feedback"
+        android:layout_width="350dp"
+        android:layout_height="250dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/rectangle"
+        android:fontFamily="@font/roboto_medium"
+        android:textAlignment="viewStart"
+        android:textColor="#000000"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/submitFeedback"
+        android:layout_width="160dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/rectangle_blue"
+        android:fontFamily="@font/roboto_medium"
+        android:text="Submit"
+        android:textColor="#ffffff"
+        android:textSize="16sp" />
+
+</LinearLayout>

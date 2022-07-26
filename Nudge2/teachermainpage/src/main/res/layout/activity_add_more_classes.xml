@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FCBB59"
+    tools:context=".MainActivity">
+
+    <SearchView
+
+        android:id="@+id/searchView"
+        android:layout_width="354dp"
+        android:layout_height="58dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="73dp"
+        android:layout_marginEnd="36dp"
+        android:layout_marginBottom="66dp"
+        android:background="@drawable/rectangle"
+        android:clickable="true"
+        android:focusable="true"
+        app:layout_constraintBottom_toTopOf="@+id/add"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="0dp"
+        android:layout_height="87dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="42dp"
+        android:layout_marginEnd="8dp"
+        android:background="@drawable/rectangle"
+        android:fontFamily="@font/roboto_medium"
+        android:text="  ECE650"
+        android:textColor="#000000"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/searchView" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="378dp"
+        android:layout_height="93dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="8dp"
+        android:background="@drawable/rectangle"
+        android:fontFamily="@font/roboto_medium"
+        android:text="  ECE650"
+        android:textColor="#000000"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/searchView" />
+
+    <CheckBox
+        android:id="@+id/add"
+        android:layout_width="48dp"
+        android:layout_height="79dp"
+        android:layout_marginEnd="6dp"
+        android:layout_marginBottom="481dp"
+        android:buttonTint="#FCBB59"
+        android:checked="false"
+        android:clickable="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/textView7"
+        app:layout_constraintTop_toBottomOf="@+id/searchView" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="14dp"
+        android:layout_marginEnd="179dp"
+        android:layout_marginBottom="9dp"
+        android:fontFamily="@font/roboto_medium"
+        android:text="@string/instructor_rabih_younes"
+        android:textColor="#000000"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toBottomOf="@+id/textView4"
+        app:layout_constraintEnd_toStartOf="@+id/add"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginBottom="8dp"
+        android:fontFamily="@font/roboto_medium"
+        android:text="@string/system_programming_engineering"
+        android:textColor="#000000"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toTopOf="@+id/textView7"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

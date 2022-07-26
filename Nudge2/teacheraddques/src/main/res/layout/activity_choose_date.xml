@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context=".ChooseDate">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="334dp"
+        android:layout_height="34dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="71dp"
+        android:layout_marginEnd="28dp"
+        android:layout_marginBottom="18dp"
+        android:background="#FFFFFF"
+        android:fontFamily="@font/inria_serif_bold"
+        android:text="Please choose the publish date"
+        android:textColor="@color/black"
+        android:textSize="23sp"
+        app:layout_constraintBottom_toTopOf="@+id/date"
+        app:layout_constraintEnd_toEndOf="@+id/date"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <DatePicker
+        android:theme="@style/MyDatePicker"
+        android:id="@+id/date"
+        android:layout_width="361dp"
+        android:layout_height="400dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginBottom="40dp"
+        android:dayOfWeekBackground="#FCBB59"
+        android:headerBackground="#FCBB59"
+        app:layout_constraintBottom_toTopOf="@+id/release"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"></DatePicker>
+
+    <Button
+        android:id="@+id/release"
+        android:layout_width="214dp"
+        android:layout_height="68dp"
+        android:layout_marginBottom="115dp"
+        android:backgroundTint="#FCBB59"
+        android:fontFamily="@font/poppins_medium"
+        android:text="Release"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/date" />
+</androidx.constraintlayout.widget.ConstraintLayout>
